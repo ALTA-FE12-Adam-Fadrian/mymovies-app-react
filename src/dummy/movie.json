@@ -1,0 +1,93 @@
+[
+    {
+        "id" : "1",
+        "title": "Black Panther: Wakanda Forever",
+        "desc": "Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T'Challa's death",
+        "img": "https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg"
+    },
+    {
+        "id" : "2",
+        "title": "Puss in Boots: The Last Wish",
+        "desc": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+        "img": "https://image.tmdb.org/t/p/w500/kuf6dutpsT0vSVehic3EZIqkOBt.jpg"
+    },
+    {
+        "id" : "3",
+        "title": "Plane",
+        "desc": "After a heroic job of successfully landing his storm-damaged aircraft in a war zone, a fearless pilot finds himself between the agendas of multiple militias planning to take the plane and its passengers hostage.",
+        "img": "https://image.tmdb.org/t/p/w500/qi9r5xBgcc9KTxlOLjssEbDgO0J.jpg"
+    },
+    {
+        "id" : "4",
+        "title": "Shotgun Wedding",
+        "desc": "Darcy and Tom gather their families for the ultimate destination wedding but when the entire party is taken hostage",
+        "img": "https://image.tmdb.org/t/p/w500/t79ozwWnwekO0ADIzsFP1E5SkvR.jpg"
+    },
+    {
+        "id" : "5",
+        "title": "M3GAN",
+        "desc": "A brilliant toy company roboticist uses artificial intelligence to develop M3GAN, a life-like doll programmed to emotionally bond with her newly orphaned niece",
+        "img": "https://image.tmdb.org/t/p/w500/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg"
+    },
+    {
+        "id" : "6",
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "desc": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang",
+        "img": "https://image.tmdb.org/t/p/w500/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg"
+    },
+    {
+        "id" : "7",
+        "title": "There Are No Saints",
+        "desc": "A man is imprisoned for a crime he didn't commit. When his wife is murdered and his son kidnapped and taken to Mexico",
+        "img": "https://image.tmdb.org/t/p/w500/fcOTYArjKuAgufwHoTvx8w9UKCv.jpg"
+    },
+    {
+        "id" : "8",
+        "title": "Avatar: The Way of Water",
+        "desc": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids)",
+        "img": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
+    },
+    {
+        "id" : "9",
+        "title": "Transfusion",
+        "desc": "Ryan Logan, a former Special Forces operative, is battling to cope with life after the loss of his wife.",
+        "img": "https://image.tmdb.org/t/p/w500/bxh5xCCW9Ynfg6EZJWUkc1zqTnr.jpg"
+    },
+    {
+        "id" : "10",
+        "title": "JUNG_E",
+        "desc": "On an uninhabitable 22nd-century Earth, the outcome of a civil war hinges on cloning the brain of an elite soldier to create a robot mercenary.",
+        "img": "https://image.tmdb.org/t/p/w500/z2nfRxZCGFgAnVhb9pZO87TyTX5.jpg"
+    },
+    {
+        "id" : "11",
+        "title": "Viking Wolf",
+        "desc": "After witnessing a grotesque murder at a party in her new town",
+        "img": "https://image.tmdb.org/t/p/w500/abBDzmy35A3Nkupn6wK2DKyFamd.jpg"
+    },
+    {
+        "id" : "12",
+        "title": "Detective Knight: Independence",
+        "desc": "Detective James Knight 's last-minute assignment to the Independence Day shift turns into a race to stop an un",
+        "img": "https://image.tmdb.org/t/p/w500/jrPKVQGjc3YZXm07OYMriIB47HM.jpg"
+    },
+    {
+        "id" : "13",
+        "title": "Black Adam",
+        "desc": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned ",
+        "img": "https://image.tmdb.org/t/p/w500/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg"
+    },
+    {
+        "id" : "14",
+        "title": "Kids vs. Aliens",
+        "desc": "All Gary wants is to make awesome home movies with his best buds.",
+        "img": "https://image.tmdb.org/t/p/w500/wQ53sO5n9LCFbssV3oQ4CuajL1L.jpg"
+    },
+    {
+        "id" : "15",
+        "title": "The Enforcer",
+        "desc": "A noir thriller set in Miami, the film follows an enforcer who discovers his femme fatale boss has",
+        "img": "https://image.tmdb.org/t/p/w500/pXC8JJbfnRWtbD8i2yKFqqWEO4X.jpg"
+    }
+
+]
