@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 type ModeType = {
     handleType: React.MouseEventHandler;
+    
   };
 
 export default class Navbar extends Component<ModeType> {
@@ -9,14 +10,15 @@ export default class Navbar extends Component<ModeType> {
 
   render() {
     const {handleType} = this.props
+   
     const image =
       "https://academy.alterra.id/blog/wp-content/uploads/2021/06/cropped-cropped-Alterra-Academy-logo.png";
     return (
       <nav className="nav bg-teal-800 font-bold font-popins">
         <img src={image} height={120} width={120} alt="" />
         <div className="">
-          <label className="swap swap-rotate" onClick={handleType}>
-            <input type="checkbox" />
+          <label className="swap swap-rotate" >
+            <input type="checkbox" onClick={handleType}/>
             <svg
               className="swap-on fill-current w-10 h-10"
               xmlns="http://www.w3.org/2000/svg"
