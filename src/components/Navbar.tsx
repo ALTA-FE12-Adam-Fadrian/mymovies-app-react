@@ -1,15 +1,15 @@
 import React, { Component } from "react";
+import { Link, useMatch, useResolvedPath} from "react-router-dom";
 
 type ModeType = {
     handleType: React.MouseEventHandler;
-    
+    children: any;
+    to: any;
   };
 
 export default class Navbar extends Component<ModeType> {
-
-
   render() {
-    const {handleType} = this.props
+    const {handleType , children, to} = this.props
    
     const image =
       "https://academy.alterra.id/blog/wp-content/uploads/2021/06/cropped-cropped-Alterra-Academy-logo.png";
@@ -33,20 +33,25 @@ export default class Navbar extends Component<ModeType> {
             >
               <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
             </svg>
+         
           </label>
         </div>
         <ul className="cursor-pointer">
-          <li>
-            <a href="#">now playing</a>
-          </li>
-          <li>
-            <a href="#"></a>detail movie
-          </li>
-          <li>
-            <a href="#"></a>favorite movies
-          </li>
+        <CustomLink to="/">Home</CustomLink> 
+        <CustomLink to="/detail-movies">Movie Detail</CustomLink> 
+        <CustomLink to="/nowplaying">Now Playing</CustomLink> 
+        <CustomLink to="/fav-movies">Favorite Movies</CustomLink> 
         </ul>
       </nav>
     );
   }
 }
+
+function CustomLink ({ to, children, ...props }) {
+  const resolvePath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvePath.pathname, end: true });
+  return <>
+    <li className={isActive ? 'active' : '' }>
+        <Link to={to}  {...props}>{children}</Link>
+    </li>
+  </>}
